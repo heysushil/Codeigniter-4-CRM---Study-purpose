@@ -33,9 +33,9 @@ class Database extends Config
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => '',
+        'username' => 'root',
         'password' => '',
-        'database' => '',
+        'database' => 'demo_crm_demo',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
