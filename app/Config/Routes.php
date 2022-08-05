@@ -40,6 +40,7 @@ $routes->group('crm', static function($routes){
     $routes->get('/', 'Home::index');
     $routes->get('login', 'Home::login');
     $routes->get('sign_up', 'Home::sign_up');
+    $routes->get('db', 'Home::db');
 });
 /*
  * --------------------------------------------------------------------
